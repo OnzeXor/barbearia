@@ -1,0 +1,244 @@
+*
+{
+margin: 0rem;
+overflow-x: hidden;
+
+
+}
+
+:root
+{
+  --marrom:rgb(146, 81, 43);
+}
+
+
+
+
+.head
+{
+  height: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 2rem;
+  position: fixed;
+  overflow-y: hidden;
+  z-index: 100;
+}
+
+.itens
+{
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
+  font-weight: 100;
+}
+
+.itens p
+{
+  font-size: 1.5rem;
+  margin: 1rem;
+  transition: transform 100ms;
+}
+
+.itens p:hover
+{
+  transform: scale(1.1);
+}
+
+.button
+{
+  background-color: var(--marrom);
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: transform 100ms;
+}
+
+.button:hover
+{
+  color: var(--marrom);
+  background-color: aliceblue;
+}
+
+.shop
+{
+  width: 100vw;
+  height: 40rem;
+  background-image: url(https://images.pexels.com/photos/1570806/pexels-photo-1570806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100vw;
+}
+
+.about
+{
+  background-image:url("https://barbeariajohnsix.com.br/wp-content/uploads/2020/01/bg-home-video.jpg") ;
+  background-position: bottom;
+  display: flex;
+  padding: 11rem;
+  
+justify-content: space-evenly;
+}
+
+.about .sobre
+{
+
+width: 27rem;
+font-family: 'Roboto Mono', monospace;
+}
+
+.sobre h1
+{
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 5rem;
+  
+}
+
+.serviços
+{
+  background-color: rgb(19, 18, 20);
+  padding-top: 10rem;
+}
+ 
+.serviços .title
+{
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: var(--marrom);
+  margin-bottom: 3rem;
+}
+
+
+.box1
+{
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: var(--marrom);
+  padding-top: 2rem;
+}
+
+.mini1, .mini2, .mini3
+{
+ overflow-y: hidden;
+ width: 22rem;
+ height: 25rem;
+  margin-left: 5rem;
+  border: 1px solid;
+  border-color: white;
+  padding-top: 1rem ;
+  padding: 1rem;
+  margin-bottom: 10rem;
+  border-radius: .2rem;
+  transition: transform 100ms;
+}
+
+.mini1:hover, .mini2:hover, .mini3:hover
+{
+  transform: scale(1.05);
+}
+
+
+.text
+{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+.agende
+{
+  background-color: rgb(19, 18, 20);
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.agende .bx
+{
+  margin-bottom: 10rem;
+  height: auto;
+  padding: 5rem 5rem 7rem 5rem;
+  width: 60rem;
+  background-color: var(--marrom);
+  display: grid;
+  justify-content: center;
+  
+}
+
+.agende .bx h1
+{
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: rgb(19, 18, 20);
+}
+
+.agende .bx .text
+{
+  overflow-y: hidden;
+  margin-top: 3rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  color: aliceblue;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.agende .bx .text a
+{
+  padding: 2rem;
+  color: aliceblue;
+  background-color: rgb(19, 18, 20);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.linha
+{
+  width: 100vw;
+  height: .2rem;
+  background-color: var(--marrom);
+}
+
+.contato
+{
+  padding: 2rem;
+  background-color: rgb(207, 207, 207);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contato h3
+{
+  display: flex;
+  color:var(--marrom);
+  margin-left: 1rem ;
+}
+
+.brown
+{
+  color: black;
+}
+
+.foot
+{
+  color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 3rem;
+  padding: 2rem 0rem 0rem 10rem;
+}
+
